@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question"
+    android:background="@drawable/asd"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="50dp"
+            android:minHeight="48dp"
+            android:text="Do you have cough?"
+            android:textOn = "yes"
+            android:textOff = "no"
+            android:checked="true"
+            />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="50dp"
+            android:minHeight="48dp"
+            android:text="Do you  lose smell or tast?"
+            android:textOn = "yes"
+            android:textOff = "no"
+            android:checked="true"/>
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="50dp"
+            android:minHeight="48dp"
+            android:text="Do you have Shortness of breath?"
+            android:textOn = "yes"
+            android:textOff = "no"
+            android:checked="true"/>
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="50dp"
+            android:minHeight="48dp"
+            android:text="Do you have fever?"
+            android:textOn = "yes"
+            android:textOff = "no"
+            android:checked="true"/>
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="50dp"
+            android:minHeight="48dp"
+            android:text="Do you have Sore throat?"
+            android:textOn = "yes"
+            android:textOff = "no"
+            android:checked="true"/>
+
+        <Switch
+            android:id="@+id/switch6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="50dp"
+            android:minHeight="48dp"
+            android:text="Do you have runny nose?"
+            android:textOn = "yes"
+            android:textOff = "no"
+            android:checked="true"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="50dp"
+            android:text="Save" />
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

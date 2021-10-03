@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage"
+    android:background="@drawable/asd"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/model"
+                android:text="Log Out"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/model"
+                android:text="Edit Account"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="348dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="1sp"
+            android:autoSizeStepGranularity="2sp"
+            android:autoSizeTextType="uniform"
+            android:text="The symptoms of COVID-19 include:
+            fever, chills or night sweats, cough, sore throat, tiredness, difficulty breathing, headache, muscle pain,  loss of sense of smell, distortion of sense of taste, nausea and vomiting, joint pain, loss of appetite, runny nose, acute blocked nose." />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="350dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="20dp"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="1sp"
+            android:autoSizeStepGranularity="2sp"
+            android:autoSizeTextType="uniform"
+            android:text="Uncommon symptoms may also occur. These include chest pain, diarrhoea and conjunctivitis." />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="348dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="20dp"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoLink="phone"
+            android:autoSizeMinTextSize="1sp"
+            android:autoSizeStepGranularity="2sp"
+            android:autoSizeTextType="uniform"
+            android:text="If you have severe difficulty breathing, call triple zero (000) immediately." />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="348dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="20dp"
+            android:autoLink="all"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="1sp"
+            android:autoSizeStepGranularity="2sp"
+            android:autoSizeTextType="uniform"
+            android:text="You can call the National Coronavirus Helpline 1800 020 080 for information and advice about COVID-19." />
+
+        <TextView
+            android:id="@+id/signup_txt_agreeTerms"
+            android:layout_width="348dp"
+            android:layout_height="91dp"
+            android:layout_marginLeft="20dp"
+            android:maxLines="30"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="1sp"
+            android:autoSizeStepGranularity="2sp"
+            android:autoSizeTextType="uniform"
+            android:autoLink="web"
+            android:text="To book a COVID-19 vaccine appointment, use the COVID-19 Vaccine Eligibility Checker（https://covidvaccine.healthdirect.gov.au/?lang=en）"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            >
+
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/model"
+                android:text="Daily health check"
+                android:textSize="13dp"
+
+                />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/model"
+                android:text="    Send Record"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

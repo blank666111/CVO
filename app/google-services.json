@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "831007500282",
+    "firebase_url": "https://covidrecord-1b76c-default-rtdb.firebaseio.com",
+    "project_id": "covidrecord-1b76c",
+    "storage_bucket": "covidrecord-1b76c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831007500282:android:f9c83071471b82838ba643",
+        "android_client_info": {
+          "package_name": "com.example.covied"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831007500282-uf9t5guukkcku9ajqter6nk38c6qdsfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB2psFKbeDOFt0g_h7JXxqFSZUODfPdE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831007500282-uf9t5guukkcku9ajqter6nk38c6qdsfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831007500282:android:c86544e3a3e2580d8ba643",
+        "android_client_info": {
+          "package_name": "com.example.cvo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831007500282-uf9t5guukkcku9ajqter6nk38c6qdsfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB2psFKbeDOFt0g_h7JXxqFSZUODfPdE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831007500282-uf9t5guukkcku9ajqter6nk38c6qdsfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831007500282:android:4a6bb52d05f1c4668ba643",
+        "android_client_info": {
+          "package_name": "com.example.new123"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831007500282-uf9t5guukkcku9ajqter6nk38c6qdsfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB2psFKbeDOFt0g_h7JXxqFSZUODfPdE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831007500282-uf9t5guukkcku9ajqter6nk38c6qdsfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
